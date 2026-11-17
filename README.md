@@ -10,7 +10,7 @@ We mine new proof-of-work and useful-work networks from their first block, and w
 
 ## Built on GenLayer
 Intelligent contracts where validators read real-world sources and code decides, each with a live site, public repo and testnet evidence:
-- **[PrivateCreditGate](https://privatecredit.brilliantnodes.com)**: a covenant-gated credit facility. Validators read the borrower's published compliance report; code applies leverage, cover and cash tests, margin grid, equity cure, events of default and payouts. Run end to end on Studio and Testnet Bradbury. [Repo](https://github.com/brilliantnodes/privatecredit-gate)
+- **[PrivateCreditGate](https://privatecredit.brilliantnodes.com)**: a covenant-gated credit facility. Validators read the borrower's published compliance report; code applies leverage, cover and cash tests, margin grid, equity cure, events of default and payouts. Five fictional borrowers run end to end on Studio and Testnet Bradbury: 129 live transactions, identical readings on both. [Repo](https://github.com/brilliantnodes/privatecredit-gate), [video](https://youtu.be/d7g2sU8bzn0)
 - **[RigSettle](https://rigsettle.brilliantnodes.com)**: settles GPU rental disputes from the pool's own hashrate page. [Repo](https://github.com/brilliantnodes/rigsettle)
 - **[Launch Claim Checker](https://checker.brilliantnodes.com)**: checks a coin launch's public claims. [Repo](https://github.com/brilliantnodes/launch-claim-checker)
 - **[genlayer-patterns](https://github.com/brilliantnodes/genlayer-patterns)**: reusable contracts (MeterReader, RuleCheck) with exact-agreement validators.
