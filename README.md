@@ -1,5 +1,7 @@
 # Brilliant Nodes
 
+**Website: [www.brilliantnodes.com](https://www.brilliantnodes.com)**
+
 We mine new proof-of-work and useful-work networks from their first block, and we build the nodes and tools those networks need early on.
 
 ## What we run
