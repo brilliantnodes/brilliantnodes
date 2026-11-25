@@ -19,6 +19,9 @@ Intelligent contracts where validators read real-world sources and code decides,
 - **[Launch Claim Checker](https://checker.brilliantnodes.com)**: checks a coin launch's public claims. New: [claim bounties](https://checker.brilliantnodes.com/bounties.html), GEN held behind a claim that pays the first person who shows, on the pinned explorer pages, that the claim is false. [Repo](https://github.com/brilliantnodes/launch-claim-checker)
 - **[genlayer-patterns](https://github.com/brilliantnodes/genlayer-patterns)**: reusable contracts with exact-agreement validators: MeterReader, RuleCheck and, new, **[ReportReader](https://github.com/brilliantnodes/genlayer-patterns/tree/main/report-reader)**: company report figures that contracts can trust. It turns a company's published report into exact on-chain figures, with an earn-out escrow that pays only on readings the network has finalized.
 
+## Validator tooling
+- **[gno-node-tools](https://github.com/brilliantnodes/gno-node-tools)**: keeps a gno.land validator running through every coordinated upgrade. gno.land mainnet stopped for an upgrade 5 times between 14 September and 18 November 2026, and its testnet Onyx 3 times since 28 September; at each stop every validator must switch to the new release at exactly the right block. The tool makes the switch, checks the node before an upgrade, and alerts only when something is really wrong. Python standard library only, MIT licence, 70 automated tests, three independent reviews. Tested against a simulator and read-only against the live Onyx network; the first live run, on our own Onyx validator node in Tokyo, is next.
+
 ## What we are building next
 **QUBO Bench** (planned) — open tools for miners on [QMS Network](https://qms.finance), whose miners solve optimisation (QUBO) problems:
 1. a GPU benchmark and a reference solver, so miners can test hardware before mining opens;
