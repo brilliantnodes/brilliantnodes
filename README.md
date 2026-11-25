@@ -27,6 +27,8 @@ Intelligent contracts where validators read real-world sources and code decides,
 
 The tools will be free and open source.
 
+**Canton Network**: validator application submitted on 25 November 2026. DevNet onboarding in progress on a dedicated server.
+
 ## How we work
 - Miners and clients run only on rented, isolated machines.
 - We use only documented public endpoints.
